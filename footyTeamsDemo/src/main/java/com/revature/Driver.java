@@ -1,0 +1,87 @@
+package com.revature;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.revature.data.Persist;
+import com.revature.models.League;
+import com.revature.models.Team;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		
+		List<Class> models = new ArrayList<Class>();
+		
+		models.add(Team.class);
+		models.add(League.class);
+		
+//		for (Field f : Team.class.getDeclaredFields()) {
+//			
+//			System.out.println(f);
+//			
+//		}
+//		
+		Persist persist = new Persist();
+		
+		persist.url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=mikeop1";
+		persist.username = "postgres";
+		persist.pwd = "Za97z%$(u<yP.P4N<S!d";
+		
+//		persist.createTables(models);
+		
+		
+		List<Team> teams = new ArrayList<>();
+		List<League> leagues = new ArrayList<>();
+		Team arsenal = new Team(1, "'Arsenal'", 11, 2, 7, 35, 1, 20);
+		Team manCity = new Team(2, "'Manchester City'", 17, 2, 2, 53, 1, 21);
+		Team chelsea = new Team(3, "'Chelsea'", 12, 7, 2, 43, 1, 21);
+		Team liverpool = new Team(4, "'Liverpool'", 12, 6, 2, 42, 1, 20);
+		Team rMadrid = new Team(5, "'Real Madrid'", 15, 4, 2, 49, 2, 21);
+		Team sevilla = new Team(6, "'Sevilla'", 13, 5, 2, 44, 2, 20);
+		Team rBetis = new Team(7, "'Real Betis'", 10, 4, 6, 34, 2, 20);
+		Team aMadrid = new Team(8, "'Atletico Madrid'", 9, 6, 5, 33, 2, 20);
+		teams.add(arsenal);
+		teams.add(manCity);
+		teams.add(chelsea);
+		teams.add(liverpool);
+		teams.add(rMadrid);
+		teams.add(sevilla);
+		teams.add(rBetis);
+		teams.add(aMadrid);
+		
+		
+//		persist.addEntry(teams);
+		
+		
+		League prem = new League(1, 20);
+		League liga = new League(2, 20);
+		leagues.add(prem);
+		leagues.add(liga);
+//		persist.addEntry(leagues);
+		
+		
+		List<Object> findTeams = null;
+		try {
+			findTeams = persist.findAll(Team.class);
+		} catch (NoSuchMethodException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		for (Object t : findTeams) {
+			System.out.println(t.toString());
+		}
+		System.out.println(persist.findById(Team.class, 1));
+		arsenal.setPoints(340);
+		persist.update(arsenal);
+		persist.delete(manCity);
+		persist.delete(prem);
+	}
+
+}

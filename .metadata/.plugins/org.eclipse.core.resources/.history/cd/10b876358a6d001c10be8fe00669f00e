@@ -1,0 +1,16 @@
+package com.revature;
+
+import java.lang.annotation.Target;
+import static java.lang.annotation.ElementType.METHOD;
+import static java.lang.annotation.ElementType.FIELD;
+
+@Target({METHOD, FIELD}) 
+public @interface Column {
+
+    /**
+     * (Optional) The name of the column. Defaults to 
+     * the property or field name.
+     */
+    String name() default "";
+    
+}

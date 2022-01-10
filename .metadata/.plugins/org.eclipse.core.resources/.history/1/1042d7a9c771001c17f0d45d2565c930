@@ -1,0 +1,136 @@
+package com.revature.models;
+
+import java.util.Objects;
+
+public class Team {
+	
+	public int teamId;
+	public String teamName;
+	public int numWins;
+	public int numDraws;
+	public int numLosses;
+	public int points;
+	public int leagueId; // foreign key
+	public int numGamesPlayed;
+	
+	public Team() {
+		super();
+	}
+
+	public Team(int teamId, String teamName, int numWins, int numDraws, int numLosses, int points, int leagueId,
+			int numGamesPlayed) {
+		super();
+		this.teamId = teamId;
+		this.teamName = teamName;
+		this.numWins = numWins;
+		this.numDraws = numDraws;
+		this.numLosses = numLosses;
+		this.points = points;
+		this.leagueId = leagueId;
+		this.numGamesPlayed = numGamesPlayed;
+	}
+
+	public Team(String teamName, int numWins, int numDraws, int numLosses, int points, int leagueId,
+			int numGamesPlayed) {
+		super();
+		this.teamName = teamName;
+		this.numWins = numWins;
+		this.numDraws = numDraws;
+		this.numLosses = numLosses;
+		this.points = points;
+		this.leagueId = leagueId;
+		this.numGamesPlayed = numGamesPlayed;
+	}
+
+	public int getTeamId() {
+		return teamId;
+	}
+
+	public void setTeamId(int teamId) {
+		this.teamId = teamId;
+	}
+
+	public String getTeamName() {
+		return teamName;
+	}
+
+	public void setTeamName(String teamName) {
+		this.teamName = teamName;
+	}
+
+	public int getNumWins() {
+		return numWins;
+	}
+
+	public void setNumWins(int numWins) {
+		this.numWins = numWins;
+	}
+
+	public int getNumDraws() {
+		return numDraws;
+	}
+
+	public void setNumDraws(int numDraws) {
+		this.numDraws = numDraws;
+	}
+
+	public int getNumLosses() {
+		return numLosses;
+	}
+
+	public void setNumLosses(int numLosses) {
+		this.numLosses = numLosses;
+	}
+
+	public int getPoints() {
+		return points;
+	}
+
+	public void setPoints(int points) {
+		this.points = points;
+	}
+
+	public int getLeagueId() {
+		return leagueId;
+	}
+
+	public void setLeagueId(int leagueId) {
+		this.leagueId = leagueId;
+	}
+
+	public int getNumGamesPlayed() {
+		return numGamesPlayed;
+	}
+
+	public void setNumGamesPlayed(int numGamesPlayed) {
+		this.numGamesPlayed = numGamesPlayed;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(leagueId, numDraws, numGamesPlayed, numLosses, numWins, points, teamId, teamName);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Team other = (Team) obj;
+		return leagueId == other.leagueId && numDraws == other.numDraws && numGamesPlayed == other.numGamesPlayed
+				&& numLosses == other.numLosses && numWins == other.numWins && points == other.points
+				&& teamId == other.teamId && Objects.equals(teamName, other.teamName);
+	}
+
+	@Override
+	public String toString() {
+		return "Team [teamId=" + teamId + ", teamName=" + teamName + ", numWins=" + numWins + ", numDraws=" + numDraws
+				+ ", numLosses=" + numLosses + ", points=" + points + ", leagueId=" + leagueId + ", numGamesPlayed="
+				+ numGamesPlayed + "]";
+	}
+	
+
+}

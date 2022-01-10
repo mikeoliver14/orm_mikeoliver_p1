@@ -1,0 +1,16 @@
+package com.revature.models;
+
+public class Team {
+	
+	public int teamId;
+	public String teamName;
+	public int numWins;
+	public int numDraws;
+	public int numLosses;
+	public int points;
+	public int leagueId; // foreign key
+	public int numGamesPlayed;
+	
+	
+
+}

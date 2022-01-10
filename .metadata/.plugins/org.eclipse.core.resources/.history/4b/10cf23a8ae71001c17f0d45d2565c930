@@ -1,0 +1,44 @@
+package com.revature;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.revature.data.Persist;
+import com.revature.models.League;
+import com.revature.models.Team;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		
+		List<Class> models = new ArrayList<Class>();
+		
+		models.add(Team.class);
+		models.add(League.class);
+		
+//		for (Field f : Team.class.getDeclaredFields()) {
+//			
+//			System.out.println(f);
+//			
+//		}
+//		
+		Persist persist = new Persist();
+		
+		persist.url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=mikeop1";
+		persist.username = "postgres";
+		persist.pwd = "Za97z%$(u<yP.P4N<S!d";
+		
+//		persist.createTables(models);
+		
+		List<Team> teams = new ArrayList<>();
+		Team arsenal = new Team(1, "Arsenal FC", 11, 2, 7, 35, 1, 20);
+		teams.add(arsenal);
+		persist.addEntry(teams);
+//(int teamId, String teamName, int numWins, int numDraws, int numLosses, int points, int leagueId,
+//		int numGamesPlayed) {
+	}
+
+}

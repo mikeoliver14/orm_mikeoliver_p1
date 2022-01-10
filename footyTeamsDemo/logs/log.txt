@@ -1,0 +1,52 @@
+2022-01-10 08:24:58 INFO  revature.data.Persist:67 - Table Team created.
+2022-01-10 08:24:58 INFO  revature.data.Persist:67 - Table League created.
+2022-01-10 08:33:02 INFO  revature.data.Persist:68 - Table Team created.
+2022-01-10 08:33:02 INFO  revature.data.Persist:68 - Table League created.
+2022-01-10 09:11:33 INFO  revature.data.Persist:68 - Table Team created.
+2022-01-10 09:11:33 INFO  revature.data.Persist:68 - Table League created.
+2022-01-10 09:11:33 INFO  revature.data.Persist:125 - Entry Team [teamId=1, teamName='Arsenal', numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 09:11:33 INFO  revature.data.Persist:125 - Entry Team [teamId=2, teamName='Manchester City', numWins=17, numDraws=2, numLosses=2, points=53, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 09:11:33 INFO  revature.data.Persist:125 - Entry Team [teamId=3, teamName='Chelsea', numWins=12, numDraws=7, numLosses=2, points=43, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry Team [teamId=4, teamName='Liverpool', numWins=12, numDraws=6, numLosses=2, points=42, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry Team [teamId=5, teamName='Real Madrid', numWins=15, numDraws=4, numLosses=2, points=49, leagueId=2, numGamesPlayed=21] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry Team [teamId=6, teamName='Sevilla', numWins=13, numDraws=5, numLosses=2, points=44, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry Team [teamId=7, teamName='Real Betis', numWins=10, numDraws=4, numLosses=6, points=34, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry Team [teamId=8, teamName='Atletico Madrid', numWins=9, numDraws=6, numLosses=5, points=33, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry League [leagueId=1, numOfTeams=20, currentStandings=] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:125 - Entry League [leagueId=2, numOfTeams=20, currentStandings=] added.
+2022-01-10 09:11:34 INFO  revature.data.Persist:189 - All entries found.
+2022-01-10 09:11:34 INFO  revature.data.Persist:255 - Found Team [teamId=1, teamName=Arsenal, numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20]
+2022-01-10 10:08:50 INFO  revature.data.Persist:68 - Table Team created.
+2022-01-10 10:08:50 INFO  revature.data.Persist:68 - Table League created.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=1, teamName='Arsenal', numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=2, teamName='Manchester City', numWins=17, numDraws=2, numLosses=2, points=53, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=3, teamName='Chelsea', numWins=12, numDraws=7, numLosses=2, points=43, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=4, teamName='Liverpool', numWins=12, numDraws=6, numLosses=2, points=42, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=5, teamName='Real Madrid', numWins=15, numDraws=4, numLosses=2, points=49, leagueId=2, numGamesPlayed=21] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=6, teamName='Sevilla', numWins=13, numDraws=5, numLosses=2, points=44, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=7, teamName='Real Betis', numWins=10, numDraws=4, numLosses=6, points=34, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry Team [teamId=8, teamName='Atletico Madrid', numWins=9, numDraws=6, numLosses=5, points=33, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry League [leagueId=1, numOfTeams=20, currentStandings=] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:125 - Entry League [leagueId=2, numOfTeams=20, currentStandings=] added.
+2022-01-10 10:08:50 INFO  revature.data.Persist:189 - All entries found.
+2022-01-10 10:08:50 INFO  revature.data.Persist:255 - Found Team [teamId=1, teamName=Arsenal, numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20]
+2022-01-10 10:24:27 INFO  revature.data.Persist:68 - Table Team created.
+2022-01-10 10:24:27 INFO  revature.data.Persist:68 - Table League created.
+2022-01-10 10:24:27 INFO  revature.data.Persist:189 - All entries found.
+2022-01-10 10:24:27 INFO  revature.data.Persist:255 - Found java.lang.Object@3857f613
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=1, teamName='Arsenal', numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=2, teamName='Manchester City', numWins=17, numDraws=2, numLosses=2, points=53, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=3, teamName='Chelsea', numWins=12, numDraws=7, numLosses=2, points=43, leagueId=1, numGamesPlayed=21] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=4, teamName='Liverpool', numWins=12, numDraws=6, numLosses=2, points=42, leagueId=1, numGamesPlayed=20] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=5, teamName='Real Madrid', numWins=15, numDraws=4, numLosses=2, points=49, leagueId=2, numGamesPlayed=21] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=6, teamName='Sevilla', numWins=13, numDraws=5, numLosses=2, points=44, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:24:52 INFO  revature.data.Persist:125 - Entry Team [teamId=7, teamName='Real Betis', numWins=10, numDraws=4, numLosses=6, points=34, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:24:53 INFO  revature.data.Persist:125 - Entry Team [teamId=8, teamName='Atletico Madrid', numWins=9, numDraws=6, numLosses=5, points=33, leagueId=2, numGamesPlayed=20] added.
+2022-01-10 10:24:53 INFO  revature.data.Persist:125 - Entry League [leagueId=1, numOfTeams=20, currentStandings=] added.
+2022-01-10 10:24:53 INFO  revature.data.Persist:125 - Entry League [leagueId=2, numOfTeams=20, currentStandings=] added.
+2022-01-10 10:24:53 INFO  revature.data.Persist:189 - All entries found.
+2022-01-10 10:24:53 INFO  revature.data.Persist:255 - Found Team [teamId=1, teamName=Arsenal, numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20]
+2022-01-10 10:27:43 INFO  revature.data.Persist:189 - All entries found.
+2022-01-10 10:27:43 INFO  revature.data.Persist:255 - Found Team [teamId=1, teamName=Arsenal, numWins=11, numDraws=2, numLosses=7, points=35, leagueId=1, numGamesPlayed=20]
+2022-01-10 10:27:43 INFO  revature.data.Persist:296 - Entry Team [teamId=1, teamName='Arsenal', numWins=11, numDraws=2, numLosses=7, points=340, leagueId=1, numGamesPlayed=20] updated.
+2022-01-10 10:27:43 INFO  revature.data.Persist:333 - Entry Team [teamId=2, teamName='Manchester City', numWins=17, numDraws=2, numLosses=2, points=53, leagueId=1, numGamesPlayed=21] deleted.
