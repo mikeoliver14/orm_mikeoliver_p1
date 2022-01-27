@@ -19,7 +19,7 @@ Java Reflection API
 Clone this repository using
 
 ```
-        git clone https://github.com/mikeoliver14/orm_mikeoliver_p1.git
+git clone https://github.com/mikeoliver14/orm_mikeoliver_p1.git
 ```
 
 (include git clone command) (include all environment setup steps)
