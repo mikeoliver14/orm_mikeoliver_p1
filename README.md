@@ -1,7 +1,6 @@
 # orm_mikeoliver_p1
 Custom ORM project 1
-PROJECT NAME
-Project Description
+
 Custom ORM to allow for SQL free interaction with a relational database. Supplies all basic CRUD functionality to developer.
 
 Technologies Used
