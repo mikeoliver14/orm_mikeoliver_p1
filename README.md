@@ -17,7 +17,7 @@ Java Reflection API
 
 <h3>Getting Started</h3>
 Clone this repository using
-```git clone https://github.com/mikeoliver14/orm_mikeoliver_p1.git```
+        git clone https://github.com/mikeoliver14/orm_mikeoliver_p1.git
 (include git clone command) (include all environment setup steps)
 
 Be sure to include BOTH Windows and Unix command
