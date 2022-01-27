@@ -15,7 +15,9 @@ AWS EC2
 DBBeaver
 Java Reflection API
 
-Getting Started
+<h3>Getting Started</h3>
+Clone this repository using
+`git clone 
 (include git clone command) (include all environment setup steps)
 
 Be sure to include BOTH Windows and Unix command
