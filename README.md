@@ -1,9 +1,9 @@
-# orm_mikeoliver_p1
-Custom ORM project 1
+<h1>orm_mikeoliver_p1</h1>
+
 
 Custom ORM to allow for SQL free interaction with a relational database. Supplies all basic CRUD functionality to developer.
 
-Technologies Used
+<h3>Technologies Used</h3>
 Java
 SQL
 JDBC
